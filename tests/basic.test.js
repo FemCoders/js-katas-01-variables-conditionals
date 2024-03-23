@@ -1,4 +1,4 @@
-import { evenOrOdd, greeting } from '../src/basic';
+import { evenOrOdd, greeting, welcome } from '../src/basic';
 
 //Ejercicio 1
 describe('Las variables en Javascript', () => {
@@ -76,7 +76,11 @@ describe('Algebra booleana', () => {
 
 //Ejercicio 5
 // Para hacer pasar estos tests, edita el código correspondiente en el archivo "basic.js"
+//Las funciones pueden tener o no parámetros, averigua que son y para que sirven, también busca la diferencia entre parámetros y argumentos.
 describe("Ejemplos de funciones", () => {
+    it('Función que nos dice Hello World', () => {
+        expect(welcome()).toBe("Hello World");
+    });
     it("Función que nos dice si un número es par (even) o impar (odd)", () => {
         expect(evenOrOdd(2)).toBe("even")
         expect(evenOrOdd(13)).toBe("odd")
