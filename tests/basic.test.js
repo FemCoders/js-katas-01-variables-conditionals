@@ -75,8 +75,9 @@ describe('Algebra booleana', () => {
 });
 
 //Ejercicio 5
-// Para hacer pasar estos tests, edita el código correspondiente en el archivo "basic.js"
-//Las funciones pueden tener o no parámetros, averigua que son y para que sirven, también busca la diferencia entre parámetros y argumentos.
+// Para hacer pasar estos tests, completa el código correspondiente en el archivo "basic.js" 
+// NO MODIFIQUES ESTOS TESTS
+// Las funciones pueden tener o no parámetros, averigua que son y para que sirven, también busca la diferencia entre parámetros y argumentos.
 describe("Ejemplos de funciones", () => {
     it('Función que nos dice Hello World', () => {
         expect(welcome()).toBe("Hello World");
